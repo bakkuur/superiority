@@ -46,9 +46,9 @@ class _LoginPageState extends State<LoginPage> {
               const Text(
                 "AL-Tafawuq Model School",
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.black),
+                style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold, color: Colors.blue),
               ),
-              const SizedBox(height: 40),
+              const SizedBox(height: 60),
               TextField(
                 controller: emailController,
                 decoration: InputDecoration(
